@@ -1,0 +1,9 @@
+# ninja log v5
+1	263	1687373799022546106	CMakeFiles/design_patterns.dir/AbstractFactoryDesignPattern/Car.cpp.o	90b4a25726309871
+0	25	1687806571029177509	build.ninja	4142f898cfc30ad1
+1	544	1687799052499591464	CMakeFiles/design_patterns.dir/SingletonDesignPattern/singleton.cpp.o	d62158e060952249
+1	293	1687373799050546333	CMakeFiles/design_patterns.dir/AbstractFactoryDesignPattern/client.cpp.o	21c383dd5ac8caff
+1	264	1687373799022546106	CMakeFiles/design_patterns.dir/AbstractFactoryDesignPattern/CarFactory.cpp.o	d270bfb98a107d0b
+0	443	1687582271699894258	CMakeFiles/design_patterns.dir/BuilderDesignPattern/builder.cpp.o	8fd033a4c418a648
+545	621	1687799052575593556	design_patterns	5552d2dac6fb0bc6
+0	278	1687584125124263867	CMakeFiles/design_patterns.dir/BuilderDesignPattern/builder2.cpp.o	e6424be6a9cc687b
