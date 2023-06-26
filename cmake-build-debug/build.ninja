@@ -49,12 +49,6 @@ cmake_ninja_workdir = /home/shukrullo/CLionProjects/design_patterns/cmake-build-
 
 build cmake_object_order_depends_target_design_patterns: phony || CMakeFiles/design_patterns.dir
 
-build CMakeFiles/design_patterns.dir/SingletonDesignPattern/singleton.cpp.o: CXX_COMPILER__design_patterns_Debug /home/shukrullo/CLionProjects/design_patterns/SingletonDesignPattern/singleton.cpp || cmake_object_order_depends_target_design_patterns
-  DEP_FILE = CMakeFiles/design_patterns.dir/SingletonDesignPattern/singleton.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/design_patterns.dir
-  OBJECT_FILE_DIR = CMakeFiles/design_patterns.dir/SingletonDesignPattern
-
 build CMakeFiles/design_patterns.dir/PrototypeDesignPattern/prototype.cpp.o: CXX_COMPILER__design_patterns_Debug /home/shukrullo/CLionProjects/design_patterns/PrototypeDesignPattern/prototype.cpp || cmake_object_order_depends_target_design_patterns
   DEP_FILE = CMakeFiles/design_patterns.dir/PrototypeDesignPattern/prototype.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
@@ -69,7 +63,7 @@ build CMakeFiles/design_patterns.dir/PrototypeDesignPattern/prototype.cpp.o: CXX
 #############################################
 # Link the executable design_patterns
 
-build design_patterns: CXX_EXECUTABLE_LINKER__design_patterns_Debug CMakeFiles/design_patterns.dir/SingletonDesignPattern/singleton.cpp.o CMakeFiles/design_patterns.dir/PrototypeDesignPattern/prototype.cpp.o
+build design_patterns: CXX_EXECUTABLE_LINKER__design_patterns_Debug CMakeFiles/design_patterns.dir/PrototypeDesignPattern/prototype.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/design_patterns.dir
   POST_BUILD = :
