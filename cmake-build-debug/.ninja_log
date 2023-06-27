@@ -1,11 +1,12 @@
 # ninja log v5
+0	252	1687847282184175731	CMakeFiles/design_patterns.dir/misc/shallow&deepcopy/deep.cpp.o	e4f0ec3e63af28c6
+0	1054	1687808284251449561	CMakeFiles/design_patterns.dir/PrototypeDesignPattern/prototype.cpp.o	b36c05f96d14ba13
 1	263	1687373799022546106	CMakeFiles/design_patterns.dir/AbstractFactoryDesignPattern/Car.cpp.o	90b4a25726309871
-0	25	1687808281523523844	build.ninja	4142f898cfc30ad1
+0	16	1687849515810212526	build.ninja	4142f898cfc30ad1
+0	271	1687847259481394474	CMakeFiles/design_patterns.dir/misc/shallow&deepcopy/shallow.cpp.o	b5f8644942056fde
 1	544	1687799052499591464	CMakeFiles/design_patterns.dir/SingletonDesignPattern/singleton.cpp.o	d62158e060952249
 1	293	1687373799050546333	CMakeFiles/design_patterns.dir/AbstractFactoryDesignPattern/client.cpp.o	21c383dd5ac8caff
 1	264	1687373799022546106	CMakeFiles/design_patterns.dir/AbstractFactoryDesignPattern/CarFactory.cpp.o	d270bfb98a107d0b
 0	443	1687582271699894258	CMakeFiles/design_patterns.dir/BuilderDesignPattern/builder.cpp.o	8fd033a4c418a648
-545	621	1687799052575593556	design_patterns	5552d2dac6fb0bc6
+252	316	1687847282248172545	design_patterns	4303d045882c0433
 0	278	1687584125124263867	CMakeFiles/design_patterns.dir/BuilderDesignPattern/builder2.cpp.o	e6424be6a9cc687b
-0	1054	1687808284251449561	CMakeFiles/design_patterns.dir/PrototypeDesignPattern/prototype.cpp.o	b36c05f96d14ba13
-1056	1202	1687808284399445552	design_patterns	9a09608bcadb21d4

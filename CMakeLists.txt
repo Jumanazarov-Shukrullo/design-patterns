@@ -3,4 +3,4 @@ project(design_patterns)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(design_patterns PrototypeDesignPattern/prototype.cpp)
+add_executable(design_patterns misc/shallow&deepcopy/deep.cpp PrototypeDesignPattern/prototyp2.cpp)
