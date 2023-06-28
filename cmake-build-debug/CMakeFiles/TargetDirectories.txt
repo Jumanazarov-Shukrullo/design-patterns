@@ -1,3 +1,0 @@
-/home/shukrullo/CLionProjects/design_patterns/cmake-build-debug/CMakeFiles/design_patterns.dir
-/home/shukrullo/CLionProjects/design_patterns/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/shukrullo/CLionProjects/design_patterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir
