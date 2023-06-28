@@ -49,17 +49,11 @@ cmake_ninja_workdir = /home/shukrullo/CLionProjects/design_patterns/cmake-build-
 
 build cmake_object_order_depends_target_design_patterns: phony || CMakeFiles/design_patterns.dir
 
-build CMakeFiles/design_patterns.dir/misc/shallow&deepcopy/deep.cpp.o: CXX_COMPILER__design_patterns_Debug /home/shukrullo/CLionProjects/design_patterns/misc/shallow&deepcopy/deep.cpp || cmake_object_order_depends_target_design_patterns
-  DEP_FILE = "CMakeFiles/design_patterns.dir/misc/shallow&deepcopy/deep.cpp.o.d"
+build CMakeFiles/design_patterns.dir/AdapterDesignPattern/adapter.cpp.o: CXX_COMPILER__design_patterns_Debug /home/shukrullo/CLionProjects/design_patterns/AdapterDesignPattern/adapter.cpp || cmake_object_order_depends_target_design_patterns
+  DEP_FILE = CMakeFiles/design_patterns.dir/AdapterDesignPattern/adapter.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/design_patterns.dir
-  OBJECT_FILE_DIR = "CMakeFiles/design_patterns.dir/misc/shallow&deepcopy"
-
-build CMakeFiles/design_patterns.dir/PrototypeDesignPattern/prototyp2.cpp.o: CXX_COMPILER__design_patterns_Debug /home/shukrullo/CLionProjects/design_patterns/PrototypeDesignPattern/prototyp2.cpp || cmake_object_order_depends_target_design_patterns
-  DEP_FILE = CMakeFiles/design_patterns.dir/PrototypeDesignPattern/prototyp2.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/design_patterns.dir
-  OBJECT_FILE_DIR = CMakeFiles/design_patterns.dir/PrototypeDesignPattern
+  OBJECT_FILE_DIR = CMakeFiles/design_patterns.dir/AdapterDesignPattern
 
 
 # =============================================================================
@@ -69,7 +63,7 @@ build CMakeFiles/design_patterns.dir/PrototypeDesignPattern/prototyp2.cpp.o: CXX
 #############################################
 # Link the executable design_patterns
 
-build design_patterns: CXX_EXECUTABLE_LINKER__design_patterns_Debug CMakeFiles/design_patterns.dir/misc/shallow&deepcopy/deep.cpp.o CMakeFiles/design_patterns.dir/PrototypeDesignPattern/prototyp2.cpp.o
+build design_patterns: CXX_EXECUTABLE_LINKER__design_patterns_Debug CMakeFiles/design_patterns.dir/AdapterDesignPattern/adapter.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/design_patterns.dir
   POST_BUILD = :
